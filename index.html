@@ -1,15 +1,4 @@
 <!DOCTYPE html>
-<!-- 
-Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.2.0
-Version: 3.4
-Author: KeenThemes
-Website: http://www.keenthemes.com/
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Like: www.facebook.com/keenthemes
-Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-License: You must have a valid license purchased only from themeforest (the above link) in order to legally use the theme for your project.
--->
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
@@ -19,7 +8,7 @@ License: You must have a valid license purchased only from themeforest (the abov
 <!-- Head BEGIN -->
 <head>
   <meta charset="utf-8">
-  <title>智瑞财务</title>
+  <title>南京智瑞财务有限公司</title>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -36,9 +25,6 @@ License: You must have a valid license purchased only from themeforest (the abov
   <meta property="og:url" content="-CUSTOMER VALUE-">
 
   <link rel="shortcut icon" href="favicon.ico">
-  <!-- Fonts START -->
-  <link href="http://fonts.useso.com/css?family=Open+Sans:300,400,600,700|Pathway+Gothic+One|PT+Sans+Narrow:400+700|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
-  <!-- Fonts END -->
   <!-- Global styles BEGIN -->
   <link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -56,9 +42,9 @@ License: You must have a valid license purchased only from themeforest (the abov
   <!-- Theme styles END -->
 </head>
 <!--DOC: menu-always-on-top class to the body element to set menu on top -->
-<body>
+<body class="menu-always-on-top">
   <!-- BEGIN STYLE CUSTOMIZER -->
-  <div class="color-panel">
+  <!--<div class="color-panel">
     <div class="color-mode-icons icon-color"></div>
     <div class="color-mode-icons icon-color-close"></div>
     <div class="color-mode">
@@ -77,7 +63,7 @@ License: You must have a valid license purchased only from themeforest (the abov
         <option value="top">顶部</option>
       </select>
     </div>
-  </div>
+  </div>-->
   <!-- END BEGIN STYLE CUSTOMIZER -->
   <!-- Header BEGIN -->
   <div class="header header-mobi-ext">
@@ -93,12 +79,13 @@ License: You must have a valid license purchased only from themeforest (the abov
         <div class="col-md-10 pull-right">
           <ul class="header-navigation">
             <li class="current"><a href="#promo-block">首页</a></li>
-            <li><a href="#about">关于</a></li>
-            <li><a href="#services">服务</a></li>
-            <li><a href="#team">团队</a></li>
-            <li><a href="#portfolio">最新作品</a></li>
-            <li><a href="#benefits">好处</a></li>
-            <li><a href="#prices">价格</a></li>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="#services">服务项目</a></li>
+            <!--<li><a href="#team">服务团队</a></li>-->
+            <li><a href="#portfolio">服务方案</a></li>
+            <li><a href="#benefits">最新资讯</a></li>
+            <!--<li><a href="#prices">价格优势</a></li>-->
+            <li><a href="#evaluate">客户评价</a></li>
             <li><a href="#contact">联系我们</a></li>
           </ul>
         </div>
@@ -125,11 +112,14 @@ License: You must have a valid license purchased only from themeforest (the abov
               data-start="500"
               data-easing="Back.easeInOut"
               data-endspeed="300">
-              <div class="promo-like"><i class="fa fa-thumbs-up"></i></div>
-              <div class="promo-like-text">
-                <h2>Let's just do it</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing<br> elit amet sed diam nonummy nibh <a href="javascript:void(0);">dolore</a></p>
+              <div class="promo-like">
+                <img src="assets/frontend/onepage/img/silder/add_me300.png">
               </div>
+              <!--<div class="promo-like"><i class="fa fa-thumbs-up"></i></div>-->
+              <!--<div class="promo-like-text">
+                <h2>行动起来吧！</h2>
+                <p>如果你对我们的服务感兴趣<br> 就请选择我们，竭诚为您服务！&lt;!&ndash;<a href="javascript:void(0);"></a>&ndash;&gt;</p>
+              </div>-->
             </div>
             <div class="tp-caption large_bold_white fade"
               data-x="center"
@@ -141,7 +131,9 @@ License: You must have a valid license purchased only from themeforest (the abov
               data-endspeed="500"
               data-endeasing="Power1.easeIn"
               data-captionhidden="off"
-              style="z-index: 6">南京<span>智瑞财务</span>服务有限公司
+              style="z-index: 6">
+              <img src="assets/frontend/onepage/img/silder/red_logo.png" style="margin-top: -10px;">
+              南京<span>智瑞财务</span>服务有限公司
             </div>
           </li>
           <li data-transition="fadefromright" data-slotamount="5" data-masterspeed="700" data-delay="9400" class="slider-item-2">
@@ -173,57 +165,9 @@ License: You must have a valid license purchased only from themeforest (the abov
               data-endspeed="500"
               data-endeasing="Power1.easeIn"
               data-captionhidden="off"
-              style="z-index: 6">南京<span>智瑞财务</span>服务有限公司
-            </div>
-          </li>
-          <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-delay="9400" class="slider-item-3">
-            <img src="http://themepunch.com/revolution/wp-content/uploads/2014/05/video_woman_cover3.jpg"  alt="video_woman_cover3"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-            
-            <div class="tp-caption tp-fade fadeout fullscreenvideo"
-              data-x="0"
-              data-y="0"
-              data-speed="1000"
-              data-start="1100"
-              data-easing="Power4.easeOut"
-              data-endspeed="1500"
-              data-endeasing="Power4.easeIn"
-              data-autoplay="true"
-              data-autoplayonlyfirsttime="false"
-              data-nextslideatend="true"
-              data-forceCover="1"
-              data-dottedoverlay="twoxtwo"
-              data-aspectratio="16:9"
-              data-forcerewind="on"
-              style="z-index: 2">
-              <video class="video-js vjs-default-skin" preload="none" width="100%" height="100%">
-                <source src='http://goodwebtheme.com/previewvideo/forest_edit.mp4' type='video/mp4'>
-                <source src='http://goodwebtheme.com/previewvideo/forest_edit.webm' type='video/webm'>
-                <source src='http://goodwebtheme.com/previewvideo/forest_edit.ogv' type='video/ogg'>
-              </video>
-            </div>
-            <div class="tp-caption large_bold_white_25 customin customout tp-resizeme"
-              data-x="center" data-hoffset="0"
-              data-y="170"
-              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-speed="600"
-              data-start="1400"
-              data-easing="Power4.easeOut"
-              data-endspeed="600"
-              data-endeasing="Power0.easeIn"
-              style="z-index: 3">The clearest way into the Universe<br/>is through a forest wilderness.
-            </div>
-            <div class="tp-caption medium_text_shadow customin customout tp-resizeme"
-              data-x="center" data-hoffset="0"
-              data-y="bottom" data-voffset="-140"
-              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-speed="600"
-              data-start="1700"
-              data-easing="Power4.easeOut"
-              data-endspeed="600"
-              data-endeasing="Power0.easeIn"
-              style="z-index: 4">John Muir
+              style="z-index: 6">
+              <img src="assets/frontend/onepage/img/silder/red_logo.png" style="margin-top: -10px;">
+              南京<span>智瑞财务</span>服务有限公司
             </div>
           </li>
         </ul>
@@ -234,21 +178,21 @@ License: You must have a valid license purchased only from themeforest (the abov
   <!-- About block BEGIN -->
   <div class="about-block content content-center" id="about">
     <div class="container">
-      <h2><strong>美创力</strong>激发灵感</h2>
-      <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
+      <h2><strong>关于</strong>我们</h2>
+      <h4>南京智瑞财务服务有限公司</h4>
       <div class="ab-trio">
         <img src="assets/frontend/onepage/img/trio.png" alt="" class="img-responsive">
         <div class="ab-cirlce ab-cirle-blue">
-          <i class="fa fa-code"></i>
-          <strong>Clean Code</strong>
+          <i class="fa fa-usd"></i>
+          <strong>美元</strong>
         </div>
         <div class="ab-cirlce ab-cirle-red">
-          <i class="fa fa-gift"></i>
-          <strong>Huge Updates</strong>
+          <i class="fa fa-jpy"></i>
+          <strong>人民币</strong>
         </div>
         <div class="ab-cirlce ab-cirle-green">
-          <i class="fa fa-mobile"></i>
-          <strong>Responsive</strong>
+          <i class="fa fa-bar-chart"></i>
+          <strong>报表</strong>
         </div>
       </div>
     </div>
@@ -257,43 +201,43 @@ License: You must have a valid license purchased only from themeforest (the abov
   <!-- Services block BEGIN -->
   <div class="services-block content content-center" id="services">
     <div class="container">
-      <h2>我们的<strong>服务</strong></h2>
-      <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
+      <h2>服务<strong>项目</strong></h2>
+      <h4>公司注册 | 代理记账</h4>
       <div class="row">
         <div class="col-md-3 col-sm-3 col-xs-12 item">
           <i class="fa fa-heart"></i>
-          <h3>Fantastic Support</h3>
-          <p>Lorem ipsum et dolor amet<br> consectetuer diam</p>
+          <h3>工商登记</h3>
+          <!--<p>Lorem ipsum et dolor amet<br> consectetuer diam</p>-->
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 item">
           <i class="fa fa-mobile"></i>
-          <h3>Mobile Solutions</h3>
-          <p>Lorem ipsum et dolor amet<br> consectetuer diam</p>
+          <h3>代理记账</h3>
+          <!--<p>Lorem ipsum et dolor amet<br> consectetuer diam</p>-->
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 item">
           <i class="fa fa-signal"></i>
-          <h3>Market Analysis</h3>
-          <p>Lorem ipsum et dolor amet<br> consectetuer diam</p>
+          <h3>税务服务</h3>
+          <!--<p>Lorem ipsum et dolor amet<br> consectetuer diam</p>-->
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 item">
           <i class="fa fa-camera"></i>
-          <h3>Photography</h3>
-          <p>Lorem ipsum et dolor amet<br> consectetuer diam</p>
+          <h3>财务咨询</h3>
+          <!--<p>Lorem ipsum et dolor amet<br> consectetuer diam</p>-->
         </div>
       </div>
     </div>
   </div>
   <!-- Services block END -->
   <!-- Message block BEGIN -->
-  <div class="message-block content content-center valign-center" id="message-block">
+  <!--<div class="message-block content content-center valign-center" id="message-block">
     <div class="valign-center-elem">
       <h2>The details are not the details <strong>They make the design</strong></h2>
       <em>KEEN THEMES</em>
     </div>
-  </div>
+  </div>-->
   <!-- Message block END -->
   <!-- Team block BEGIN -->
-  <div class="team-block content content-center margin-bottom-40" id="team">
+  <!--<div class="team-block content content-center margin-bottom-40" id="team">
     <div class="container">
       <h2>认识<strong>团队</strong></h2>
       <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
@@ -333,41 +277,31 @@ License: You must have a valid license purchased only from themeforest (the abov
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
   <!-- Team block END -->
   <!-- Portfolio block BEGIN -->
   <div class="portfolio-block content content-center" id="portfolio">
     <div class="container">
-      <h2 class="margin-bottom-50">最新<strong>作品</strong></h2>
+      <h2 class="margin-bottom-50">服务<strong>方案</strong></h2>
     </div>
     <div class="row">
+      <div class="item col-md-2 col-sm-6 col-xs-12">
+        <img src="assets/frontend/onepage/img/portfolio/1.jpg" alt="NAME" class="img-responsive">
+        <a href="assets/frontend/onepage/img/portfolio/1.jpg" class="zoom valign-center">
+          <div class="valign-center-elem">
+            <strong>公司注册</strong>
+            <em>权威公司注册专家，提供内资公司、外资公司注册（包括增资、变更、转让等）等服务。</em>
+            <!--<b>Details</b>-->
+          </div>
+        </a>
+      </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/2.jpg" alt="NAME" class="img-responsive">
         <a href="assets/frontend/onepage/img/portfolio/2.jpg" class="zoom valign-center">
           <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
-          </div>
-        </a>
-      </div>
-      <div class="item col-md-2 col-sm-6 col-xs-12">
-        <img src="assets/frontend/onepage/img/portfolio/6.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/6.jpg" class="zoom valign-center">
-          <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
-          </div>
-        </a>
-      </div>
-      <div class="item col-md-2 col-sm-6 col-xs-12">
-        <img src="assets/frontend/onepage/img/portfolio/8.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/8.jpg" class="zoom valign-center">
-          <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
+            <strong>代理记账</strong>
+            <em>财务公司的资深会计团队将为您量身定制最佳会计税务方案，让您免除后顾之忧，节省经营成本，节约时间，更专注于拓展业务！</em>
+            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
@@ -375,19 +309,9 @@ License: You must have a valid license purchased only from themeforest (the abov
         <img src="assets/frontend/onepage/img/portfolio/3.jpg" alt="NAME" class="img-responsive">
         <a href="assets/frontend/onepage/img/portfolio/3.jpg" class="zoom valign-center">
           <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
-          </div>
-        </a>
-      </div>
-      <div class="item col-md-2 col-sm-6 col-xs-12">
-        <img src="assets/frontend/onepage/img/portfolio/5.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/5.jpg" class="zoom valign-center">
-          <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
+            <strong>税务申报</strong>
+            <em>权威知识产权代理机构，专业法律顾问为您提供商标注册、专利申请及版权登记等全方位服务。知识产权服务，利于打造企业品牌，助您企业腾飞！</em>
+            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
@@ -395,39 +319,29 @@ License: You must have a valid license purchased only from themeforest (the abov
         <img src="assets/frontend/onepage/img/portfolio/4.jpg" alt="NAME" class="img-responsive">
         <a href="assets/frontend/onepage/img/portfolio/4.jpg" class="zoom valign-center">
           <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
+            <strong>商标注册</strong>
+            <em>在华投资隐藏着各种法律风险，财务公司的法律服务为客户提供专业的法律建议和相关解决方案。为您的生意护航，保护您在华投资的合法权益！</em>
+            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
-        <img src="assets/frontend/onepage/img/portfolio/1.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/1.jpg" class="zoom valign-center">
+        <img src="assets/frontend/onepage/img/portfolio/5.jpg" alt="NAME" class="img-responsive">
+        <a href="assets/frontend/onepage/img/portfolio/5.jpg" class="zoom valign-center">
           <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
+            <strong>企业管理咨询</strong>
+            <em>权威公司注册专家，提供内资公司、外资公司注册（包括增资、变更、转让等）等服务</em>
+            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
-        <img src="assets/frontend/onepage/img/portfolio/10.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/10.jpg" class="zoom valign-center">
+        <img src="assets/frontend/onepage/img/portfolio/6.jpg" alt="NAME" class="img-responsive">
+        <a href="assets/frontend/onepage/img/portfolio/6.jpg" class="zoom valign-center">
           <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
-          </div>
-        </a>
-      </div>
-      <div class="item col-md-2 col-sm-6 col-xs-12">
-        <img src="assets/frontend/onepage/img/portfolio/9.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/9.jpg" class="zoom valign-center">
-          <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
+            <strong>商旅咨询</strong>
+            <em>财务公司的资深会计团队将为您量身定制最佳会计税务方案，让您免除后顾之忧，节省经营成本，节约时间，更专注于拓展业务！</em>
+            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
@@ -435,19 +349,9 @@ License: You must have a valid license purchased only from themeforest (the abov
         <img src="assets/frontend/onepage/img/portfolio/7.jpg" alt="NAME" class="img-responsive">
         <a href="assets/frontend/onepage/img/portfolio/7.jpg" class="zoom valign-center">
           <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
-          </div>
-        </a>
-      </div>
-      <div class="item col-md-2 col-sm-6 col-xs-12">
-        <img src="assets/frontend/onepage/img/portfolio/2.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/2.jpg" class="zoom valign-center">
-          <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
+            <strong>法律咨询</strong>
+            <em>权威知识产权代理机构，专业法律顾问为您提供商标注册、专利申请及版权登记等全方位服务。知识产权服务，利于打造企业品牌，助您企业腾飞！</em>
+            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
@@ -455,9 +359,49 @@ License: You must have a valid license purchased only from themeforest (the abov
         <img src="assets/frontend/onepage/img/portfolio/8.jpg" alt="NAME" class="img-responsive">
         <a href="assets/frontend/onepage/img/portfolio/8.jpg" class="zoom valign-center">
           <div class="valign-center-elem">
-            <strong>London City Project</strong>
-            <em>Property</em>
-            <b>Details</b>
+            <strong>房地产咨询</strong>
+            <em>在华投资隐藏着各种法律风险，财务公司的法律服务为客户提供专业的法律建议和相关解决方案。为您的生意护航，保护您在华投资的合法权益！</em>
+            <!--<b>Details</b>-->
+          </div>
+        </a>
+      </div>
+      <div class="item col-md-2 col-sm-6 col-xs-12">
+        <img src="assets/frontend/onepage/img/portfolio/9.jpg" alt="NAME" class="img-responsive">
+        <a href="assets/frontend/onepage/img/portfolio/9.jpg" class="zoom valign-center">
+          <div class="valign-center-elem">
+            <strong>税务申报</strong>
+            <!--<em>Property</em>-->
+            <!--<b>Details</b>-->
+          </div>
+        </a>
+      </div>
+      <div class="item col-md-2 col-sm-6 col-xs-12">
+        <img src="assets/frontend/onepage/img/portfolio/10.jpg" alt="NAME" class="img-responsive">
+        <a href="assets/frontend/onepage/img/portfolio/10.jpg" class="zoom valign-center">
+          <div class="valign-center-elem">
+            <strong>商标注册</strong>
+            <!--<em>Property</em>-->
+            <!--<b>Details</b>-->
+          </div>
+        </a>
+      </div>
+      <div class="item col-md-2 col-sm-6 col-xs-12">
+        <img src="assets/frontend/onepage/img/portfolio/11.jpg" alt="NAME" class="img-responsive">
+        <a href="assets/frontend/onepage/img/portfolio/11.jpg" class="zoom valign-center">
+          <div class="valign-center-elem">
+            <strong>企业管理咨询</strong>
+            <!--<em>Property</em>-->
+            <!--<b>Details</b>-->
+          </div>
+        </a>
+      </div>
+      <div class="item col-md-2 col-sm-6 col-xs-12">
+        <img src="assets/frontend/onepage/img/portfolio/12.jpg" alt="NAME" class="img-responsive">
+        <a href="assets/frontend/onepage/img/portfolio/12.jpg" class="zoom valign-center">
+          <div class="valign-center-elem">
+            <strong>税法咨询</strong>
+            <!--<em>Property</em>-->
+            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
@@ -467,8 +411,9 @@ License: You must have a valid license purchased only from themeforest (the abov
   <!-- Choose us block BEGIN -->
   <div class="choose-us-block content text-center margin-bottom-40" id="benefits">
     <div class="container">
-      <h2>为什么<strong>选择我们</strong></h2>
-      <h4>Lorem ipsum dolor sit amet, <a href="javascript:void(0);">consectetuer adipiscing</a> elit, sed diam nonummy<br> nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h4>
+      <h2>最新<strong>资讯</strong></h2>
+      <!--<h4>Lorem ipsum dolor sit amet, <a href="javascript:void(0);">consectetuer adipiscing</a> elit, sed diam nonummy<br> nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h4>-->
+      <h4><a href="#">南京智瑞财务服务有限公司</a>拥有专业的工商注册团队，财务会计团队，税务筹划团队，具有丰富的工商注册、财务记账报税经验，可为您提供量身定制的，优质高效的财务、税务、工商代理服务方案。让您在公司注册、增资、代理记账、税务申报、一般纳税人资格认定、企业社保等方面高枕无忧。</h4>
       <div class="row">
         <div class="col-md-6 col-sm-6 col-xs-12 text-left">
           <img src="assets/frontend/onepage/img/choose-us.png" alt="Why to choose us" class="img-responsive">
@@ -478,78 +423,77 @@ License: You must have a valid license purchased only from themeforest (the abov
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h5 class="panel-title">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">Lorem ipsum dolor sit amet</a>
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">经营范围</a>
                 </h5>
               </div>
               <div id="accordion1_1" class="panel-collapse collapse in">
                 <div class="panel-body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>
+                  <p>南京智瑞财务服务有限公司成立于2020年08月28日，经营范围包括许可项目：代理记账（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准） 一般项目：税务服务；财务咨询；工商登记代理代办（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）</p>
                 </div>
               </div>
             </div>
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h5 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">Consectetur adipisicing elit</a>
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">关代理记账怎么做？</a>
                 </h5>
               </div>
               <div id="accordion1_2" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>
+                  <p>《会计法》第36条明确规定：“不具备设置条件的应当委托经批准设立从事会计代理记账业务的中介机构代理记账。” </p>
+                  <p>代理记账是指将本企业的会计核算、记账、报税等一系列的工作全部委托给专业记账公司完成，本企业只设立出纳人员，负责日常货币收支业务和财产保管等工作。</p>
                 </div>
               </div>
             </div>
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h5 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_3">Augue assum anteposuerit dolore</a>
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_3">关于财务公司</a>
                 </h5>
               </div>
               <div id="accordion1_3" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>
+                  <p>财务公司财税咨询有限公司拥有专业的工商注册团队，财务会计团队，税务筹划团队，具有丰富的工商注册、财务记账报税经验，可为您提供量身定制的，优质高效的财务、税务、工商代理服务方案。让您在公司注册、增资、代理记账、税务申报、一般纳税人资格认定、企业社保等方面高枕无忧。</p>
+                  <!--<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>-->
                 </div>
               </div>
             </div>
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h5 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_4">Sollemnes in futurum</a>
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_4">公司注册流程</a>
                 </h5>
               </div>
               <div id="accordion1_4" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>
+                  <p>是开始创业的第一步。一般来说，公司注册的流程包括：企业核名→提交材料→领取执照→刻章，就可以完成公司注册，进行开业了。</p>
+                  <p>但是，公司想要正式开始经营，还需要办理以下事项：银行开户→税务报到→申请税控和发票→社保开户。</p>
                 </div>
               </div>
             </div>
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h5 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_5">Nostrud Tempor veniam</a>
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_5">公司变更经营范围的内容有哪些？</a>
                 </h5>
               </div>
               <div id="accordion1_5" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>
+                  <p>随着公司的发展规模逐渐加大，企业需要根据实际情况调整公司的发展方向，因此就会出现需要调整经营范围的情况，现在办理工商变更的手续已经比以前简化了很多，但是还是有许多</p>
+                  <!--<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>-->
                 </div>
               </div>
             </div>
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h5 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_6">Ut enem magana sed dolore</a>
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_6">新分公司注册具体流程是什么？</a>
                 </h5>
               </div>
               <div id="accordion1_6" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>
+                  <p>企业设立分公司，不仅对选址有诸多考虑，办理手续也挺复杂，其程度不亚于重新注册一个公司，企业在通过董事会议之后，需要按照以下流程进行工商登记</p>
+                  <!--<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>-->
                 </div>
               </div>
             </div>
@@ -560,21 +504,21 @@ License: You must have a valid license purchased only from themeforest (the abov
   </div>
   <!-- Choose us block END -->
   <!-- Checkout block BEGIN -->
-  <div class="checkout-block content">
+  <!--<div class="checkout-block content">
     <div class="container">
       <div class="row">
         <div class="col-md-10">
           <h2>查看管理主题！ <em>功能最全 &amp; 功能最强大的管理主题</em></h2>
         </div>
-        <div class="col-md-2 text-right">
-          <a href="http://www.keenthemes.com/preview/index.php?theme=metronic_admin&amp;page=index.html" target="_blank" class="btn btn-primary">实时预览</a>
-        </div>
+        &lt;!&ndash;<div class="col-md-2 text-right">
+          <a href="#" target="_blank" class="btn btn-primary">实时预览</a>
+        </div>&ndash;&gt;
       </div>
     </div>
-  </div>
+  </div>-->
   <!-- Checkout block END -->
   <!-- Facts block BEGIN -->
-  <div class="facts-block content content-center" id="facts-block">
+  <!--<div class="facts-block content content-center" id="facts-block">
     <h2>关于我们的一些事实</h2>
     <div class="container">
       <div class="row">
@@ -604,14 +548,14 @@ License: You must have a valid license purchased only from themeforest (the abov
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
   <!-- Facts block END -->
   <!-- Prices block BEGIN -->
-  <div class="prices-block content content-center" id="prices">
+  <!--<div class="prices-block content content-center" id="prices">
     <div class="container">
       <h2 class="margin-bottom-50"><strong>定价</strong>表</h2>
       <div class="row">
-        <!-- Pricing item BEGIN -->
+        &lt;!&ndash; Pricing item BEGIN &ndash;&gt;
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="pricing-item">
             <div class="pricing-head">
@@ -620,7 +564,7 @@ License: You must have a valid license purchased only from themeforest (the abov
             </div>
             <div class="pricing-content">
               <div class="pi-price">
-                <strong>$<em>19</em></strong>
+                <strong>￥<em>19</em></strong>
                 <p>Per Month</p>
               </div>
               <ul class="list-unstyled">
@@ -634,8 +578,8 @@ License: You must have a valid license purchased only from themeforest (the abov
             </div>
           </div>
         </div>
-        <!-- Pricing item END -->
-        <!-- Pricing item BEGIN -->
+        &lt;!&ndash; Pricing item END &ndash;&gt;
+        &lt;!&ndash; Pricing item BEGIN &ndash;&gt;
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="pricing-item">
             <div class="pricing-head">
@@ -644,7 +588,7 @@ License: You must have a valid license purchased only from themeforest (the abov
             </div>
             <div class="pricing-content">
               <div class="pi-price">
-                <strong>$<em>25</em></strong>
+                <strong>￥<em>25</em></strong>
                 <p>Per Month</p>
               </div>
               <ul class="list-unstyled">
@@ -658,8 +602,8 @@ License: You must have a valid license purchased only from themeforest (the abov
             </div>
           </div>
         </div>
-        <!-- Pricing item END -->
-        <!-- Pricing item BEGIN -->
+        &lt;!&ndash; Pricing item END &ndash;&gt;
+        &lt;!&ndash; Pricing item BEGIN &ndash;&gt;
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="pricing-item">
             <div class="pricing-head">
@@ -668,7 +612,7 @@ License: You must have a valid license purchased only from themeforest (the abov
             </div>
             <div class="pricing-content">
               <div class="pi-price">
-                <strong>$<em>59</em></strong>
+                <strong>￥<em>59</em></strong>
                 <p>Per Month</p>
               </div>
               <ul class="list-unstyled">
@@ -682,8 +626,8 @@ License: You must have a valid license purchased only from themeforest (the abov
             </div>
           </div>
         </div>
-        <!-- Pricing item END -->
-        <!-- Pricing item BEGIN -->
+        &lt;!&ndash; Pricing item END &ndash;&gt;
+        &lt;!&ndash; Pricing item BEGIN &ndash;&gt;
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="pricing-item">
             <div class="pricing-head">
@@ -692,7 +636,7 @@ License: You must have a valid license purchased only from themeforest (the abov
             </div>
             <div class="pricing-content">
               <div class="pi-price">
-                <strong>$<em>98</em></strong>
+                <strong>￥<em>98</em></strong>
                 <p>Per Month</p>
               </div>
               <ul class="list-unstyled">
@@ -706,16 +650,16 @@ License: You must have a valid license purchased only from themeforest (the abov
             </div>
           </div>
         </div>
-        <!-- Pricing item END -->
+        &lt;!&ndash; Pricing item END &ndash;&gt;
       </div>
     </div>
-  </div>
+  </div>-->
   <!-- Prices block END -->
   <!-- Testimonials block BEGIN -->
-  <div class="testimonials-block content content-center margin-bottom-65">
+  <div class="testimonials-block content content-center margin-bottom-65" id="evaluate">
     <div class="container">
-      <h2>客户<strong>感言</strong></h2>
-      <h4>Lorem ipsum dolor坐在amet，秘书adipiscing精英</h4>
+      <h2>客户<strong>评价</strong></h2>
+      <h4>客户评价</h4>
       <div class="carousel slide" data-ride="carousel" id="testimonials-block">
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
@@ -784,21 +728,22 @@ License: You must have a valid license purchased only from themeforest (the abov
         <!-- BEGIN BOTTOM ABOUT BLOCK -->
         <div class="col-md-4 col-sm-6 pre-footer-col">
           <h2>关于我们</h2>
-          <p>Lorem ipsum dolor坐在amet，私立学校adidascing精英，sed diam坐在非木乃伊euismod tincidunt ut laoreet dolore magna aliquarm erat坐在volutpat。不知疲倦的锻炼ullamcorper suscipit lobortis nisl aliquip commodo结果。 </p>
-          <p>Duis autem vel eum iriure dolor vulputate velit esse molestie at dolore.</p>
+          <p>南京智瑞财务服务有限公司成立于2020-08-28，所属行业为商务服务业，经营范围包含：许可项目：代理记账（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准）一般项目：税务服务；财务咨询；工商登记代理代办（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）。</p>
+          <a class="twitter-timeline" href="https://www.qcc.com/firm/6b83174afd81fca4bf10ac6b53df1e67.html" data-tweet-limit="2" data-theme="dark" data-link-color="#57C8EB" data-widget-id="455411516829736961" data-chrome="noheader nofooter noscrollbar noborders transparent">请点击查询公司信息...</a>
         </div>
         <!-- END BOTTOM ABOUT BLOCK -->
         <!-- BEGIN TWITTER BLOCK --> 
         <div class="col-md-4 col-sm-6 pre-footer-col">
-          <h2 class="margin-bottom-0">最新动态</h2>
-          <a class="twitter-timeline" href="#" data-tweet-limit="2" data-theme="dark" data-link-color="#57C8EB" data-widget-id="455411516829736961" data-chrome="noheader nofooter noscrollbar noborders transparent">请关注微信公众号...</a>
+          <h2 class="margin-bottom-0">公司信息</h2>
+          <br/>
+          <img src="assets/frontend/onepage/img/silder/add_me100.png">
         </div>
         <!-- END TWITTER BLOCK -->
         <div class="col-md-4 col-sm-6 pre-footer-col">
           <!-- BEGIN BOTTOM CONTACTS -->
           <h2>联系我们</h2>
           <address class="margin-bottom-20">
-            江苏省 南京市 浦口区 <br>
+            江苏省 南京市 浦口区 高新技术开发区 <br>
             流芳路8号<br>
             电话1: 158 9599 1487<br>
             电话2: 180 1395 7041<br>
@@ -806,7 +751,7 @@ License: You must have a valid license purchased only from themeforest (the abov
             QQ: <a href="#">759043389</a>
           </address>
           <!-- END BOTTOM CONTACTS -->
-          <div class="pre-footer-subscribe-box">
+          <!--<div class="pre-footer-subscribe-box">
             <h2>通讯</h2>
             <form action="javascript:void(0);">
               <div class="input-group">
@@ -816,7 +761,7 @@ License: You must have a valid license purchased only from themeforest (the abov
                 </span>
               </div>
             </form>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
@@ -828,12 +773,11 @@ License: You must have a valid license purchased only from themeforest (the abov
       <div class="row">
         <!-- BEGIN COPYRIGHT -->
         <div class="col-md-6 col-sm-6">
-          <!--<div class="copyright">2014 © Metronic One Page. ALL Rights Reserved.</div>-->
-          <div class="copyright">Copyright © 2021 智瑞财务版权所有</div>
+          <div class="copyright">Copyright © 2021 南京智瑞财务服务有限公司版权所有</div>
         </div>
         <!-- END COPYRIGHT -->
         <!-- BEGIN SOCIAL ICONS -->
-        <div class="col-md-6 col-sm-6 pull-right">
+        <!--<div class="col-md-6 col-sm-6 pull-right">
           <ul class="social-icons">
             <li><a class="rss" data-original-title="rss" href="javascript:void(0);"></a></li>
             <li><a class="facebook" data-original-title="facebook" href="javascript:void(0);"></a></li>
@@ -844,7 +788,7 @@ License: You must have a valid license purchased only from themeforest (the abov
             <li><a class="vimeo" data-original-title="vimeo" href="javascript:void(0);"></a></li>
             <li><a class="skype" data-original-title="skype" href="javascript:void(0);"></a></li>
           </ul>
-        </div>
+        </div>-->
         <!-- END SOCIAL ICONS -->
       </div>
     </div>
