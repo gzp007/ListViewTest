@@ -8,7 +8,7 @@
 <!-- Head BEGIN -->
 <head>
   <meta charset="utf-8">
-  <title>南京智瑞财务有限公司</title>
+  <title>南京智瑞财务服务有限公司</title>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -205,22 +205,22 @@
       <h4>公司注册 | 代理记账</h4>
       <div class="row">
         <div class="col-md-3 col-sm-3 col-xs-12 item">
-          <i class="fa fa-heart"></i>
+          <i class="fa fa-newspaper-o"></i>
           <h3>工商登记</h3>
           <!--<p>Lorem ipsum et dolor amet<br> consectetuer diam</p>-->
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 item">
-          <i class="fa fa-mobile"></i>
+          <i class="fa fa-pencil-square-o"></i>
           <h3>代理记账</h3>
           <!--<p>Lorem ipsum et dolor amet<br> consectetuer diam</p>-->
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 item">
-          <i class="fa fa-signal"></i>
+          <i class="fa fa-star"></i>
           <h3>税务服务</h3>
           <!--<p>Lorem ipsum et dolor amet<br> consectetuer diam</p>-->
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 item">
-          <i class="fa fa-camera"></i>
+          <i class="fa fa-phone-square"></i>
           <h3>财务咨询</h3>
           <!--<p>Lorem ipsum et dolor amet<br> consectetuer diam</p>-->
         </div>
@@ -235,6 +235,7 @@
       <em>KEEN THEMES</em>
     </div>
   </div>-->
+  <div id="myDiv" width="100%"></div>
   <!-- Message block END -->
   <!-- Team block BEGIN -->
   <!--<div class="team-block content content-center margin-bottom-40" id="team">
@@ -821,6 +822,11 @@
   <script>
     $(document).ready(function() {
       Layout.init();
+
+      xmlhttp.open("GET","https://etax.jiangsu.chinatax.gov.cn/jx/tzgg/",false);
+      xmlhttp.send();
+      document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+      console.log("xmlhttp.responseText",xmlhttp.responseText);
     });
   </script>
   <!-- Global js END -->
