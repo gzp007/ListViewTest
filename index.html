@@ -235,7 +235,6 @@
       <em>KEEN THEMES</em>
     </div>
   </div>-->
-  <div id="myDiv" width="100%"></div>
   <!-- Message block END -->
   <!-- Team block BEGIN -->
   <!--<div class="team-block content content-center margin-bottom-40" id="team">
@@ -822,11 +821,6 @@
   <script>
     $(document).ready(function() {
       Layout.init();
-
-      xmlhttp.open("GET","https://etax.jiangsu.chinatax.gov.cn/jx/tzgg/",false);
-      xmlhttp.send();
-      document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
-      console.log("xmlhttp.responseText",xmlhttp.responseText);
     });
   </script>
   <!-- Global js END -->
