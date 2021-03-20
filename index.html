@@ -43,28 +43,6 @@
 </head>
 <!--DOC: menu-always-on-top class to the body element to set menu on top -->
 <body class="menu-always-on-top">
-  <!-- BEGIN STYLE CUSTOMIZER -->
-  <!--<div class="color-panel">
-    <div class="color-mode-icons icon-color"></div>
-    <div class="color-mode-icons icon-color-close"></div>
-    <div class="color-mode">
-      <p>主体颜色</p>
-      <ul class="inline">
-        <li class="color-red current color-default" data-style="red"></li>
-        <li class="color-blue" data-style="blue"></li>
-        <li class="color-green" data-style="green"></li>
-        <li class="color-orange" data-style="orange"></li>
-        <li class="color-gray" data-style="gray"></li>
-        <li class="color-turquoise" data-style="turquoise"></li>
-      </ul>
-      <p>菜单定位</p>
-      <select class="form-control menu-pos">
-        <option value="bottom">底部</option>
-        <option value="top">顶部</option>
-      </select>
-    </div>
-  </div>-->
-  <!-- END BEGIN STYLE CUSTOMIZER -->
   <!-- Header BEGIN -->
   <div class="header header-mobi-ext">
     <div class="container">
@@ -80,12 +58,12 @@
           <ul class="header-navigation">
             <li class="current"><a href="#promo-block">首页</a></li>
             <li><a href="#about">关于我们</a></li>
-            <li><a href="#services">服务项目</a></li>
+            <li><a href="#services">服务范围</a></li>
             <!--<li><a href="#team">服务团队</a></li>-->
             <li><a href="#portfolio">服务方案</a></li>
             <li><a href="#benefits">最新资讯</a></li>
             <!--<li><a href="#prices">价格优势</a></li>-->
-            <li><a href="#evaluate">客户评价</a></li>
+            <!--<li><a href="#evaluate">客户评价</a></li>-->
             <li><a href="#contact">联系我们</a></li>
           </ul>
         </div>
@@ -112,14 +90,11 @@
               data-start="500"
               data-easing="Back.easeInOut"
               data-endspeed="300">
-              <div class="promo-like">
-                <img src="assets/frontend/onepage/img/silder/add_me300.png">
+              <div class="promo-like-text">
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                  <img src="assets/frontend/onepage/img/silder/add_me300.png">
+                </div>
               </div>
-              <!--<div class="promo-like"><i class="fa fa-thumbs-up"></i></div>-->
-              <!--<div class="promo-like-text">
-                <h2>行动起来吧！</h2>
-                <p>如果你对我们的服务感兴趣<br> 就请选择我们，竭诚为您服务！&lt;!&ndash;<a href="javascript:void(0);"></a>&ndash;&gt;</p>
-              </div>-->
             </div>
             <div class="tp-caption large_bold_white fade"
               data-x="center"
@@ -132,8 +107,9 @@
               data-endeasing="Power1.easeIn"
               data-captionhidden="off"
               style="z-index: 6">
-              <img src="assets/frontend/onepage/img/silder/red_logo.png" style="margin-top: -10px;">
-              南京<span>智瑞财务</span>服务有限公司
+              <div class="col-md-3 col-sm-3 col-xs-12">
+                南京<span>智瑞财务</span>服务有限公司
+              </div>
             </div>
           </li>
           <li data-transition="fadefromright" data-slotamount="5" data-masterspeed="700" data-delay="9400" class="slider-item-2">
@@ -166,8 +142,9 @@
               data-endeasing="Power1.easeIn"
               data-captionhidden="off"
               style="z-index: 6">
-              <img src="assets/frontend/onepage/img/silder/red_logo.png" style="margin-top: -10px;">
-              南京<span>智瑞财务</span>服务有限公司
+              <div class="col-md-3 col-sm-3 col-xs-12 ">
+                南京<span>智瑞财务</span>服务有限公司
+              </div>
             </div>
           </li>
         </ul>
@@ -178,22 +155,10 @@
   <!-- About block BEGIN -->
   <div class="about-block content content-center" id="about">
     <div class="container">
-      <h2><strong>关于</strong>我们</h2>
+      <h2>关于<strong>我们</strong></h2>
       <h4>南京智瑞财务服务有限公司</h4>
       <div class="ab-trio">
         <img src="assets/frontend/onepage/img/trio.png" alt="" class="img-responsive">
-        <div class="ab-cirlce ab-cirle-blue" style="padding-top: 50px;">
-          <i class="fa fa-calculator"></i>
-          <!--<strong>美元</strong>-->
-        </div>
-        <div class="ab-cirlce ab-cirle-red" style="padding-top: 50px;">
-          <i class="fa fa-jpy"></i>
-          <!--<strong>人民币</strong>-->
-        </div>
-        <div class="ab-cirlce ab-cirle-green" style="padding-top: 50px;">
-          <i class="fa fa-bar-chart"></i>
-          <!--<strong>报表</strong>-->
-        </div>
       </div>
     </div>
   </div>
@@ -201,7 +166,7 @@
   <!-- Services block BEGIN -->
   <div class="services-block content content-center" id="services">
     <div class="container">
-      <h2>服务<strong>项目</strong></h2>
+      <h2>服务<strong>范围</strong></h2>
       <h4>公司注册 | 代理记账</h4>
       <div class="row">
         <div class="col-md-3 col-sm-3 col-xs-12 item">
@@ -228,57 +193,6 @@
     </div>
   </div>
   <!-- Services block END -->
-  <!-- Message block BEGIN -->
-  <!--<div class="message-block content content-center valign-center" id="message-block">
-    <div class="valign-center-elem">
-      <h2>The details are not the details <strong>They make the design</strong></h2>
-      <em>KEEN THEMES</em>
-    </div>
-  </div>-->
-  <!-- Message block END -->
-  <!-- Team block BEGIN -->
-  <!--<div class="team-block content content-center margin-bottom-40" id="team">
-    <div class="container">
-      <h2>认识<strong>团队</strong></h2>
-      <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
-      <div class="row">
-        <div class="col-md-4 item">
-          <img src="assets/frontend/onepage/img/people/img6-large.jpg" alt="Marcus Doe" class="img-responsive">
-          <h3>Marcus Doe</h3>
-          <em>Founder</em>
-          <p>Lorem ipsum dolor amet, tempor ut labore magna tempor dolore</p>
-          <div class="tb-socio">
-            <a href="javascript:void(0);" class="fa fa-facebook"></a>
-            <a href="javascript:void(0);" class="fa fa-twitter"></a>
-            <a href="javascript:void(0);" class="fa fa-google-plus"></a>
-          </div>
-        </div>
-        <div class="col-md-4 item">
-          <img src="assets/frontend/onepage/img/people/img7-large.jpg" alt="Elena Taylor" class="img-responsive">
-          <h3>Elena Taylor</h3>
-          <em>Designer</em>
-          <p>Lorem ipsum dolor amet, tempor ut labore magna tempor dolore</p>
-          <div class="tb-socio">
-            <a href="javascript:void(0);" class="fa fa-facebook"></a>
-            <a href="javascript:void(0);" class="fa fa-twitter"></a>
-            <a href="javascript:void(0);" class="fa fa-google-plus"></a>
-          </div>
-        </div>
-        <div class="col-md-4 item">
-          <img src="assets/frontend/onepage/img/people/img8-large.jpg" alt="Cris Nilson" class="img-responsive">
-          <h3>Cris Nilson</h3>
-          <em>Developer</em>
-          <p>Lorem ipsum dolor amet, tempor ut labore magna tempor dolore</p>
-          <div class="tb-socio">
-            <a href="javascript:void(0);" class="fa fa-facebook"></a>
-            <a href="javascript:void(0);" class="fa fa-twitter"></a>
-            <a href="javascript:void(0);" class="fa fa-google-plus"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>-->
-  <!-- Team block END -->
   <!-- Portfolio block BEGIN -->
   <div class="portfolio-block content content-center" id="portfolio">
     <div class="container">
@@ -287,121 +201,109 @@
     <div class="row">
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/1.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/1.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>公司注册</strong>
             <em>权威公司注册专家，提供内资公司、外资公司注册（包括增资、变更、转让等）等服务。</em>
-            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/2.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/2.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>代理记账</strong>
             <em>财务公司的资深会计团队将为您量身定制最佳会计税务方案，让您免除后顾之忧，节省经营成本，节约时间，更专注于拓展业务！</em>
-            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/3.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/3.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>税务申报</strong>
             <em>权威知识产权代理机构，专业法律顾问为您提供商标注册、专利申请及版权登记等全方位服务。知识产权服务，利于打造企业品牌，助您企业腾飞！</em>
-            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/4.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/4.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>商标注册</strong>
             <em>在华投资隐藏着各种法律风险，财务公司的法律服务为客户提供专业的法律建议和相关解决方案。为您的生意护航，保护您在华投资的合法权益！</em>
-            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/5.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/5.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>企业管理咨询</strong>
-            <em>权威公司注册专家，提供内资公司、外资公司注册（包括增资、变更、转让等）等服务</em>
-            <!--<b>Details</b>-->
+            <em>权威公司注册专家，提供内资公司、外资公司注册（包括增资、变更、转让等）等服务！</em>
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/6.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/6.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>商旅咨询</strong>
             <em>财务公司的资深会计团队将为您量身定制最佳会计税务方案，让您免除后顾之忧，节省经营成本，节约时间，更专注于拓展业务！</em>
-            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/7.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/7.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>法律咨询</strong>
             <em>权威知识产权代理机构，专业法律顾问为您提供商标注册、专利申请及版权登记等全方位服务。知识产权服务，利于打造企业品牌，助您企业腾飞！</em>
-            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/8.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/8.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>房地产咨询</strong>
             <em>在华投资隐藏着各种法律风险，财务公司的法律服务为客户提供专业的法律建议和相关解决方案。为您的生意护航，保护您在华投资的合法权益！</em>
-            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/9.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/9.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>税务申报</strong>
             <!--<em>Property</em>-->
-            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/10.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/10.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>商标注册</strong>
             <!--<em>Property</em>-->
-            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/11.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/11.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>企业管理咨询</strong>
             <!--<em>Property</em>-->
-            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
       <div class="item col-md-2 col-sm-6 col-xs-12">
         <img src="assets/frontend/onepage/img/portfolio/12.jpg" alt="NAME" class="img-responsive">
-        <a href="assets/frontend/onepage/img/portfolio/12.jpg" class="zoom valign-center">
+        <a href="javascript:void(0);" class="zoom valign-center">
           <div class="valign-center-elem">
             <strong>税法咨询</strong>
             <!--<em>Property</em>-->
-            <!--<b>Details</b>-->
           </div>
         </a>
       </div>
@@ -428,7 +330,7 @@
               </div>
               <div id="accordion1_1" class="panel-collapse collapse in">
                 <div class="panel-body">
-                  <p>南京智瑞财务服务有限公司成立于2020年08月28日，经营范围包括许可项目：代理记账（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准） 一般项目：税务服务；财务咨询；工商登记代理代办（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）</p>
+                  <p>南京智瑞财务服务有限公司成立于2020年08月28日，经营范围包括许可项目：代理记账（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准） 一般项目：税务服务；财务咨询；工商登记代理代办（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）。</p>
                 </div>
               </div>
             </div>
@@ -479,7 +381,7 @@
               </div>
               <div id="accordion1_5" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>随着公司的发展规模逐渐加大，企业需要根据实际情况调整公司的发展方向，因此就会出现需要调整经营范围的情况，现在办理工商变更的手续已经比以前简化了很多，但是还是有许多</p>
+                  <p>随着公司的发展规模逐渐加大，企业需要根据实际情况调整公司的发展方向，因此就会出现需要调整经营范围的情况，现在办理工商变更的手续已经比以前简化了很多，但是还是有许多。</p>
                   <!--<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>-->
                 </div>
               </div>
@@ -492,7 +394,7 @@
               </div>
               <div id="accordion1_6" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>企业设立分公司，不仅对选址有诸多考虑，办理手续也挺复杂，其程度不亚于重新注册一个公司，企业在通过董事会议之后，需要按照以下流程进行工商登记</p>
+                  <p>企业设立分公司，不仅对选址有诸多考虑，办理手续也挺复杂，其程度不亚于重新注册一个公司，企业在通过董事会议之后，需要按照以下流程进行工商登记。</p>
                   <!--<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>-->
                 </div>
               </div>
@@ -503,181 +405,29 @@
     </div>
   </div>
   <!-- Choose us block END -->
-  <!-- Checkout block BEGIN -->
-  <!--<div class="checkout-block content">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10">
-          <h2>查看管理主题！ <em>功能最全 &amp; 功能最强大的管理主题</em></h2>
-        </div>
-        &lt;!&ndash;<div class="col-md-2 text-right">
-          <a href="#" target="_blank" class="btn btn-primary">实时预览</a>
-        </div>&ndash;&gt;
-      </div>
-    </div>
-  </div>-->
-  <!-- Checkout block END -->
-  <!-- Facts block BEGIN -->
-  <!--<div class="facts-block content content-center" id="facts-block">
-    <h2>关于我们的一些事实</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-3 col-xs-6">
-          <div class="item">
-            <strong>39</strong>
-            Projects Completed
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-3 col-xs-6">
-          <div class="item">
-            <strong>14</strong>
-            Team Members
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-3 col-xs-6">
-          <div class="item">
-            <strong>29k+</strong>
-            Products Sold
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-3 col-xs-6">
-          <div class="item">
-            <strong>500</strong>
-            Weekly Sales
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>-->
-  <!-- Facts block END -->
-  <!-- Prices block BEGIN -->
-  <!--<div class="prices-block content content-center" id="prices">
-    <div class="container">
-      <h2 class="margin-bottom-50"><strong>定价</strong>表</h2>
-      <div class="row">
-        &lt;!&ndash; Pricing item BEGIN &ndash;&gt;
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="pricing-item">
-            <div class="pricing-head">
-              <h3>初学者</h3>
-              <p>Lorem ipsum dolor</p>
-            </div>
-            <div class="pricing-content">
-              <div class="pi-price">
-                <strong>￥<em>19</em></strong>
-                <p>Per Month</p>
-              </div>
-              <ul class="list-unstyled">
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-              </ul>
-            </div>
-            <div class="pricing-footer">
-              <a class="btn btn-default" href="javascript:void(0);">报名</a>
-            </div>
-          </div>
-        </div>
-        &lt;!&ndash; Pricing item END &ndash;&gt;
-        &lt;!&ndash; Pricing item BEGIN &ndash;&gt;
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="pricing-item">
-            <div class="pricing-head">
-              <h3>专业版</h3>
-              <p>Lorem ipsum dolor</p>
-            </div>
-            <div class="pricing-content">
-              <div class="pi-price">
-                <strong>￥<em>25</em></strong>
-                <p>Per Month</p>
-              </div>
-              <ul class="list-unstyled">
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-              </ul>
-            </div>
-            <div class="pricing-footer">
-              <a class="btn btn-default" href="javascript:void(0);">报名</a>
-            </div>
-          </div>
-        </div>
-        &lt;!&ndash; Pricing item END &ndash;&gt;
-        &lt;!&ndash; Pricing item BEGIN &ndash;&gt;
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="pricing-item">
-            <div class="pricing-head">
-              <h3>专家</h3>
-              <p>Lorem ipsum dolor</p>
-            </div>
-            <div class="pricing-content">
-              <div class="pi-price">
-                <strong>￥<em>59</em></strong>
-                <p>Per Month</p>
-              </div>
-              <ul class="list-unstyled">
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-              </ul>
-            </div>
-            <div class="pricing-footer">
-              <a class="btn btn-default" href="javascript:void(0);">报名</a>
-            </div>
-          </div>
-        </div>
-        &lt;!&ndash; Pricing item END &ndash;&gt;
-        &lt;!&ndash; Pricing item BEGIN &ndash;&gt;
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="pricing-item">
-            <div class="pricing-head">
-              <h3>高科技</h3>
-              <p>Lorem ipsum dolor</p>
-            </div>
-            <div class="pricing-content">
-              <div class="pi-price">
-                <strong>￥<em>98</em></strong>
-                <p>Per Month</p>
-              </div>
-              <ul class="list-unstyled">
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-                <li><i class="fa fa-circle"></i> Lorem ipsum dolor</li>
-              </ul>
-            </div>
-            <div class="pricing-footer">
-              <a class="btn btn-default" href="javascript:void(0);">报名</a>
-            </div>
-          </div>
-        </div>
-        &lt;!&ndash; Pricing item END &ndash;&gt;
-      </div>
-    </div>
-  </div>-->
-  <!-- Prices block END -->
   <!-- Testimonials block BEGIN -->
-  <div class="testimonials-block content content-center margin-bottom-65" id="evaluate">
+  <!--<div class="testimonials-block content content-center margin-bottom-65" id="evaluate">
     <div class="container">
       <h2>客户<strong>评价</strong></h2>
       <h4>客户评价</h4>
       <div class="carousel slide" data-ride="carousel" id="testimonials-block">
-        <!-- Wrapper for slides -->
+        &lt;!&ndash; Wrapper for slides &ndash;&gt;
         <div class="carousel-inner">
-          <!-- Carousel items -->
+          &lt;!&ndash; Carousel items &ndash;&gt;
           <div class="active item">
             <blockquote>
               <p>这是最令人敬畏，功能齐全，简单易用的主题。它反应迅速，对所有建议都非常有帮助。</p>
             </blockquote>
             <span class="testimonials-name">马克·多伊</span>
           </div>
-          <!-- Carousel items -->
+          &lt;!&ndash; Carousel items &ndash;&gt;
           <div class="item">
             <blockquote>
               <p>您可能从未听说过原始牛仔布牛仔短裤，奥斯丁。Nesciunt豆腐树桩镇aliqua，复古合成器大师清洗。</p>
             </blockquote>
             <span class="testimonials-name">乔·史密斯</span>
           </div>
-          <!-- Carousel items -->
+          &lt;!&ndash; Carousel items &ndash;&gt;
           <div class="item">
             <blockquote>
               <p>威廉斯堡卡尔斯素食主义者Helvetica。Cosby毛衣eu banh mi，qui irure特里·理查森（ex鱿鱼）</p>
@@ -685,7 +435,7 @@
             <span class="testimonials-name">琳达·亚当斯（Linda Adams）</span>
           </div>
         </div>
-        <!-- Indicators -->
+        &lt;!&ndash; Indicators &ndash;&gt;
         <ol class="carousel-indicators">
           <li data-target="#testimonials-block" data-slide-to="0" class="active"></li>
           <li data-target="#testimonials-block" data-slide-to="1"></li>
@@ -693,48 +443,22 @@
         </ol>
       </div>
     </div>
-  </div>
-  <!-- Testimonials block END -->
-  <!-- Partners block BEGIN -->
-  <!--<div class="partners-block">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <img src="assets/frontend/onepage/img/partners/cisco.png" alt="cisco">
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <img src="assets/frontend/onepage/img/partners/walmart.png" alt="walmart">
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <img src="assets/frontend/onepage/img/partners/gamescast.png" alt="gamescast">
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <img src="assets/frontend/onepage/img/partners/spinwokrx.png" alt="spinwokrx">
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <img src="assets/frontend/onepage/img/partners/ngreen.png" alt="ngreen">
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <img src="assets/frontend/onepage/img/partners/vimeo.png" alt="vimeo">
-        </div>
-      </div>
-    </div>
   </div>-->
-  <!-- Partners block END -->
+  <!-- Testimonials block END -->
   <!-- BEGIN PRE-FOOTER -->
   <div class="pre-footer" id="contact">
     <div class="container">
       <div class="row">
         <!-- BEGIN BOTTOM ABOUT BLOCK -->
         <div class="col-md-4 col-sm-6 pre-footer-col">
-          <h2>关于我们</h2>
+          <h2>公司简介</h2>
           <p>南京智瑞财务服务有限公司成立于2020-08-28，所属行业为商务服务业，经营范围包含：许可项目：代理记账（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准）一般项目：税务服务；财务咨询；工商登记代理代办（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）。</p>
           <a class="twitter-timeline" href="https://www.qcc.com/firm/6b83174afd81fca4bf10ac6b53df1e67.html" data-tweet-limit="2" data-theme="dark" data-link-color="#57C8EB" data-widget-id="455411516829736961" data-chrome="noheader nofooter noscrollbar noborders transparent">请点击查询公司信息...</a>
         </div>
         <!-- END BOTTOM ABOUT BLOCK -->
         <!-- BEGIN TWITTER BLOCK --> 
         <div class="col-md-4 col-sm-6 pre-footer-col">
-          <h2 class="margin-bottom-0">公司信息</h2>
+          <!--<h2 class="margin-bottom-0">公司信息</h2>-->
           <br/>
           <img src="assets/frontend/onepage/img/silder/add_me100.png">
         </div>
@@ -751,17 +475,6 @@
             QQ: <a href="#">759043389</a>
           </address>
           <!-- END BOTTOM CONTACTS -->
-          <!--<div class="pre-footer-subscribe-box">
-            <h2>通讯</h2>
-            <form action="javascript:void(0);">
-              <div class="input-group">
-                <input type="text" placeholder="759043389@qq.com" class="form-control">
-                <span class="input-group-btn">
-                <button class="btn btn-primary" type="submit">订阅</button>
-                </span>
-              </div>
-            </form>
-          </div>-->
         </div>
       </div>
     </div>
@@ -776,20 +489,6 @@
           <div class="copyright">Copyright © 2021 南京智瑞财务服务有限公司版权所有</div>
         </div>
         <!-- END COPYRIGHT -->
-        <!-- BEGIN SOCIAL ICONS -->
-        <!--<div class="col-md-6 col-sm-6 pull-right">
-          <ul class="social-icons">
-            <li><a class="rss" data-original-title="rss" href="javascript:void(0);"></a></li>
-            <li><a class="facebook" data-original-title="facebook" href="javascript:void(0);"></a></li>
-            <li><a class="twitter" data-original-title="twitter" href="javascript:void(0);"></a></li>
-            <li><a class="googleplus" data-original-title="googleplus" href="javascript:void(0);"></a></li>
-            <li><a class="linkedin" data-original-title="linkedin" href="javascript:void(0);"></a></li>
-            <li><a class="youtube" data-original-title="youtube" href="javascript:void(0);"></a></li>
-            <li><a class="vimeo" data-original-title="vimeo" href="javascript:void(0);"></a></li>
-            <li><a class="skype" data-original-title="skype" href="javascript:void(0);"></a></li>
-          </ul>
-        </div>-->
-        <!-- END SOCIAL ICONS -->
       </div>
     </div>
   </div>
