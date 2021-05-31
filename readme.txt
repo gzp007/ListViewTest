@@ -8,6 +8,7 @@ C:\Windows\System32\drivers\etc
 github.com
 140.82.113.4
 140.82.113.4
+140.82.114.3 github.com
 
 github.global.ssl.fastly.net
 199.232.69.194
